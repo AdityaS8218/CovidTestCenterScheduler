@@ -22,8 +22,9 @@ The system allows:
 1. Make sure you have a C++ compiler (like `g++`).  
 2. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/CovidTestCenterScheduler.git
-   cd CovidTestCenterScheduler
+  git clone https://github.com/AdityaS8218/CovidTestCenterScheduler.git
+  cd CovidTestCenterScheduler
+
 Compile the program:
 
 bash
