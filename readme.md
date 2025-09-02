@@ -1,76 +1,76 @@
 Covid Test Center Scheduler 
 
- Description -
+ Description :-
 
 This project is a simple C++ application that manages Covid test appointment scheduling.
 It uses a priority queue to ensure patients with higher priority are scheduled first.
 The system allows:
 
-Booking new slots 
+-Booking new slots 
 
-Viewing the schedule
+-Viewing the schedule
 
-Exporting data to a CSV file
+-Exporting data to a CSV file
 
- Features
+ Features :-
 
-Book a Slot - Add patient details (name, age, priority).
+ 1 Book a Slot - Add patient details (name, age, priority).
 
-View Schedule - Display patients sorted by priority.
+ 2 View Schedule - Display patients sorted by priority.
 
-Export to CSV - Save the schedule for records.
+ 3 Export to CSV - Save the schedule for records.
 
-Priority Queue System → Higher priority patients are seen first.
+ 4 Priority Queue System → Higher priority patients are seen first.
 
- How to Run
+ How to Run :-
 
-Make sure you have a C++ compiler (like g++).
+ 1 Make sure you have a C++ compiler (like g++).
 
-Clone this repository:
-
+ 2 Clone this repository:
 git clone https://github.com/AdityaS8218/CovidTestCenterScheduler.git
 
 cd CovidTestCenterScheduler
 
-Compile the program:
+ 3 Compile the program:
 
 g++ main.cpp -o scheduler
 
-Run the executable:
+ 4 Run the executable:
 
 ./scheduler
 
 Project Structure
 
 CovidTestCenterScheduler/
- main.cpp → Source code
- .gitignore → Ignored files list
- README.md → Project documentation
- appointments.csv → Exported schedule (generated after running)
+- main.cpp → Source code
+- .gitignore → Ignored files list
+- README.md → Project documentation
+- appointments.csv → Exported schedule (generated after running)
 
-Example Output
+
+Example Output :-
 
 Covid Test Center Scheduler 
 
-Book a Slot
+1.Book a Slot
 
-View Schedule
+2.View Schedule
 
-Export to CSV
+3.Export to CSV
 
-Exit
+4.Exit
 Enter choice:
 
-What I Have Done
+What I Have Done :-
 
-Implemented patient scheduling using priority queue.
+-Implemented patient scheduling using priority queue.
 
-Added timestamp to each booking.
+-Added timestamp to each booking.
 
-Enabled CSV export for reports.
+-Enabled CSV export for reports.
 
-Designed a simple menu-driven interface.
+-Designed a simple menu-driven interface.
 
- License
+ License :-
 
 This project is open-source. You are free to use and modify it.
